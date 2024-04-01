@@ -43,27 +43,27 @@
 }
 
 .accordion.active {
-  background-color: #2c222e; /* Culorea de fundal a panoului activ */
+  background-color: #2c222e; 
 }
 
 .panel {
   padding: 0 18px;
-  background-color: #2c222e; /* Culorea de fundal a panoului */
+  background-color: #2c222e; 
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
 .panel p {
-  margin: 0; /* Eliminăm marginile la paragrafele din panou */
-  padding: 10px 0; /* Adăugăm puțin spațiu între paragrafe */
-  color: #fff; /* Culoarea textului */
+  margin: 0;
+  padding: 10px 0; 
+  color: #fff; 
 }
 
 .panel button {
-  margin-top: 10px; /* Adăugăm un spațiu între paragraf și buton */
-  background-color: #1a191d; /* Culoarea butonului */
-  color: #fff; /* Culoarea textului butonului */
+  margin-top: 10px;
+  background-color: #1a191d; 
+  color: #fff; 
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -71,7 +71,7 @@
 }
 
 .panel button:hover {
-  background-color: #281f2a; /* Culoarea butonului la hover */
+  background-color: #281f2a;
 }
 
 /* Movies Gallery */
@@ -109,18 +109,18 @@
 /* Navigation Buttons for Movies Gallery */
 .navigation-buttons {
   position: absolute;
-  bottom: 120px; /* Ajustăm distanța butoanelor de jos */
-  right: 500px; /* Plasăm butoanele în partea dreaptă */
+  bottom: 120px;
+  right: 500px;
   display: flex;
-  flex-direction: row; /* Așezăm butoanele într-un rând */
-  align-items: flex-end; /* Aliniem butoanele pe orizontală */
+  flex-direction: row; 
+  align-items: flex-end;
   z-index: 3;
 }
 
 .navigation-buttons button {
   width: 80px;
   height: 80px;
-  margin-right: 20px; /* Ajustăm distanța dintre butoane */
+  margin-right: 20px;
   border: none;
   border-radius: 50%;
   background-color: #0C0F0A;
@@ -148,26 +148,26 @@
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 15px 0 15px 26px; /* Ajustează aceste valori pentru a mări sau micșora triunghiul */
-  border-color: transparent transparent transparent #f2e9f2; /* Culoarea triunghiului */
+  border-width: 15px 0 15px 26px;
+  border-color: transparent transparent transparent #f2e9f2; 
 }
 
 .navigation-buttons button.previous::before {
-  transform: translate(-50%, -50%) rotate(180deg); /* Rotirea triunghiului pentru butonul previous */
+  transform: translate(-50%, -50%) rotate(180deg); 
 }
 
 .navigation-buttons button.next::after {
-  transform: translate(-50%, -50%); /* Fără rotire pentru butonul next */
-}
+  transform: translate(-50%, -50%); 
 
+  
 /* Navbar */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 10px 20px; /* Adăugăm puțin spațiu între elementele navbar-ului */
-  z-index: 1000; /* Asigurăm că navbar-ul este plasat deasupra conținutului */
+  padding: 10px 20px; 
+  z-index: 1000; 
   font-size: 25px;
 }
 
@@ -182,16 +182,16 @@
 }
 
 .bar-list {
-  list-style-type: none; /* Eliminăm stilul implicit al listei */
+  list-style-type: none; 
   margin: 0;
   margin-right: 100px;
   padding: 0;
   display: flex;
-  justify-content: flex-end; /* Aliniem elementele la dreapta */
+  justify-content: flex-end; 
 }
 
 .bar-text {
-  margin-right: 24px; /* Adăugăm spațiu între elementele din navbar */
+  margin-right: 24px; 
   font-family: 'Urbanist';
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.75);
   position: relative;
@@ -201,18 +201,18 @@
   content: '';
   position: absolute;
   top: 50%;
-  right: -12px; /* Ajustăm poziția liniei pentru a fi la jumătatea distanței dintre titluri */
+  right: -12px; 
   transform: translateY(-50%);
-  height: 70%; /* Înălțimea liniei */
-  width: 1.5px; /* Lățimea liniei */
-  background-color: #f5e9e2; /* Culoarea liniei */
+  height: 70%; 
+  width: 1.5px; 
+  background-color: #f5e9e2;
 }
 
 .bar-text a {
-  text-decoration: none; /* Eliminăm sublinierea de sub link-uri */
-  color: #f5e9e2; /* Setăm culoarea textului */
+  text-decoration: none; 
+  color: #f5e9e2;
 }
 
 .bar-text a:hover {
-  color: #f4f4f9; /* Schimbăm culoarea textului la hover */
+  color: #f4f4f9;
 }
