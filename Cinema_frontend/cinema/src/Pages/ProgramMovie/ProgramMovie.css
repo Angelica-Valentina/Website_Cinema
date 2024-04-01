@@ -1,0 +1,25 @@
+/* ProgramMovie.css */
+
+.container-program {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asigură că întreaga înălțime a ecranului este ocupată */
+    color:#ddd;
+  }
+  
+  .program-table {
+    width: 80%; /* Poți ajusta lățimea tabelului după preferințe */
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #090808;
+  }
+  

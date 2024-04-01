@@ -1,0 +1,28 @@
+.statistici {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    row-gap: 30px;
+    font-size: 20px;
+}
+
+.statistici h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.statistici h3 {
+    font-size: 24px;
+}
+
+.statistici span {
+    color: #16a085;
+    font-weight: bold;
+}
+
+.statistici .result {
+    border: 2px solid #16a085;
+    padding: 20px;
+}

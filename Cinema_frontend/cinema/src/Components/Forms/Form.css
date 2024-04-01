@@ -1,0 +1,194 @@
+@font-face 
+{
+    font-family: 'Righteous-Regular';
+    src: url('../../Assets/Fonts/Righteous-Regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'RopaSans-Regular';
+    src: url('../../Assets/Fonts/RopaSans-Regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'Rosario';
+    src: url('../../Assets/Fonts/Rosario-VariableFont_wght.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Partea comună a celor 2 formulare */
+.form 
+{
+    margin-top: 150px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background: #4C4C9D;
+    padding: 75px;
+    overflow: hidden;
+    width: auto;
+    max-width: 770px;
+    display: flex;
+    flex-direction: column;
+}
+  
+.form input 
+{
+    width: 100%;
+    padding: 5px;
+    background-color: #4C4C9D;
+
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #A2ABB5;
+
+    position: relative;
+    margin-bottom: 40px;
+
+    color: #F3ECF9;
+    font-family: 'Rosario';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.form input:focus 
+{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2.5px solid #F3ECF9;
+}
+
+.form label 
+{
+    color: #F3ECF9;
+    font-family: 'RopaSans-Regular';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+/* Formular LogIn */
+.new-account 
+{
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+
+    border-radius: 5px;
+    background: #DDD2E6;
+    width: 280px;
+    height: 30px;
+    padding: 10px;
+    flex-shrink: 0;
+
+    color: #0B0014;
+    font-family: 'Rosario';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+}
+
+.link-signup 
+{
+    text-decoration: none;
+    color: #5941A9;
+}
+
+.link-signup:hover 
+{
+    color: #876eda;
+}
+
+
+/* Formular SignUp */
+.form-two-columns 
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+.form-two-columns > div 
+{
+    width: 48%;
+    margin-bottom: 16px; 
+}
+
+.form-two-columns label,
+.form-two-columns input 
+{
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+
+/* Spațiu între cele două coloane */
+.form-two-columns > div:first-child 
+{
+    margin-right: 5%; 
+}
+
+.pass-alert 
+{
+    color: #EA638C;
+    font-family: 'RopaSans-Regular';
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+/* Elemente comune buton submit */
+.submit {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    background-color: #F5F2B8;
+    border-radius: 1px;
+    flex-shrink: 0;
+
+    color: #0C0F0A;
+    font-family: 'Righteous-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.submit:hover 
+{
+    background-color: #F3ECF9;
+}
+
+.submit:focus 
+{
+    background-color: #7da98b;
+}
+
+/* Alinierea Butonului de Sign Up */
+.submit-two-columns 
+{
+    position: absolute; 
+    bottom: 10%; 
+    right: 10%; 
+}
+
+
+
+
+
+

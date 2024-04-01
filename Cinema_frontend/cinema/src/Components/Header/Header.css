@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Lalezar';
+    src: url('../../Assets/Fonts/Lalezar-Regular.ttf') format('truetype'); /* ajustează calea și formatul în funcție de tipul de font */
+    font-weight: normal;
+    font-style: normal;
+}
+  
+.bck {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-image: url('../../Assets/Images/bck1.jpg');
+}
+
+.bck::before {
+    content: 'CINEMA EUFORIE';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: #DDD2E6;
+    font-family: 'Lalezar';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.bck img {
+    width: 130px; 
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+}
