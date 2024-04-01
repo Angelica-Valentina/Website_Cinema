@@ -4,12 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Asigură că întreaga înălțime a ecranului este ocupată */
+    height: 100vh;
     color:#ddd;
   }
   
   .program-table {
-    width: 80%; /* Poți ajusta lățimea tabelului după preferințe */
+    width: 80%; 
     border-collapse: collapse;
   }
   
